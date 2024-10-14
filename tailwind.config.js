@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 import flowbitePlugin from 'flowbite/plugin'; // Flowbite plugin for Tailwind CSS
+import daisyui from "daisyui"
 
 export default {
   content: [
@@ -16,6 +17,7 @@ export default {
     },
   },
   plugins: [
-    flowbitePlugin, // Flowbite plugin for custom Tailwind components
+    flowbitePlugin,
+    daisyui // Flowbite plugin for custom Tailwind components
   ],
 }
