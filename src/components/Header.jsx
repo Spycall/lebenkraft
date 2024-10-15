@@ -7,7 +7,7 @@ function Header({ text = "" }) {
     <div className="relative">
       <Slider />
       {/* Overlay */}
-      <div className="w-full h-full absolute top-0 left-0 bg-black/60"></div>
+      <div className="w-full h-[600px] absolute top-0 left-0 bg-black/60"></div>
 
       {/* Text */}
       <p className="absolute top-[3rem] right-[1rem] md:right-[4rem] text-[#BB2E94] text-3xl md:text-6xl max-w-[20rem] font-bold">

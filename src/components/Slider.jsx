@@ -44,7 +44,11 @@ export default function Slider() {
             currentSlide === index + 1 ? "block" : "hidden"
           }`}
         >
-          <img src={image} className="w-full" alt={`Slide ${index + 1}`} />
+          <img
+            src={image}
+            className="w-full object-cover h-[600px]"
+            alt={`Slide ${index + 1}`}
+          />
           <div className="absolute left-5 right-5 z-40 top-1/2 flex -translate-y-1/2 transform justify-between">
             <a onClick={prevSlide} className="btn btn-circle">
               ❮
