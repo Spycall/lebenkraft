@@ -66,7 +66,7 @@ const Cards = ({ service }) => {
           </p>
           <Link
             to={card.link}
-            className={`bg-[#5E2866] text-white px-4 py-2 rounded-[0_0_20px_0] text-sm self-end w-fit ${
+            className={`bg-[#5E2866] text-white px-4 py-2 rounded-[0_0_20px_0] text-sm self-end w-fit transition duration-300 ease-in-out transform hover:scale-105 hover:bg-[#BB2E94] hover:text-white ${
               service ? "!text-[#5e2866] bg-white" : ""
             }`}
           >
